@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+/** CSS Animations by blorentz **/
+/** Glowing Orb Rain **/
+
+.cc-glow-rain { 
+    position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 1; 
+    animation: 45s linear 0s infinite fade-glow;
+    background: -webkit-linear-gradient(127deg, rgba(5,45,65,.8), rgba(255,0,0,0) 70.71), 
+        -webkit-linear-gradient(37deg, rgba(9,90,129,.8), rgba(0,255,0,0) 70.71),
+        -webkit-linear-gradient(246deg, rgba(14,134,193,.8), rgba(0,0,255,0) 70.71);
+    background: -o-linear-gradient(127deg, rgba(5,45,65,.8), rgba(255,0,0,0) 70.71), 
+        -o-linear-gradient(37deg, rgba(9,90,129,.8), rgba(0,255,0,0) 70.71),
+        -o-linear-gradient(246deg, rgba(14,134,193,.8), rgba(0,0,255,0) 70.71);
+    background: linear-gradient(217deg, rgba(5,45,65,.8), rgba(255,0,0,0) 70.71), 
+        linear-gradient(127deg, rgba(9,90,129,.8), rgba(0,255,0,0) 70.71),
+        linear-gradient(336deg, rgba(14,134,193,.8), rgba(0,0,255,0) 70.71);
+}
+
+.cc-glow-rain .orb { 
+    position: absolute; 
+    background-color: rgba(255, 255, 255, .13); 
+    box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, .5);
+    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; 
+}
+
+.cc-glow-rain .small { width: 50px; height: 50px; }
+.cc-glow-rain .large { width: 100px; height: 100px; }
+
+/** Offset Orb Animations **/
+
+.cc-glow-rain .orb:nth-child(1){ 
+    left: 1%;
+    animation: 5s linear 0s infinite drop-pattern-one;
+}
+
+.cc-glow-rain .orb:nth-child(2){ 
+    left: 4%;
+    animation: 41s linear 0s infinite drop-pattern-three;
+}
+
+.cc-glow-rain .orb:nth-child(3){ 
+    left: 7%;
+    animation: 9s linear 0s infinite drop-pattern-three;
+}
+
+.cc-glow-rain .orb:nth-child(4){ 
+    left: 10%;
+    animation: 37s linear 0s infinite drop-pattern-five;
+}
+
+.cc-glow-rain .orb:nth-child(5){ 
+    left: 13%;
+    animation: 13s linear 0s infinite drop-pattern-five;
+}
+
+.cc-glow-rain .orb:nth-child(6){ 
+    left: 16%;
+    animation: 33s linear 0s infinite drop-pattern-five;
+}
+
+.cc-glow-rain .orb:nth-child(7){ 
+    left: 19%;
+    animation: 17s linear 0s infinite drop-pattern-five;
+}
+
+.cc-glow-rain .orb:nth-child(8){ 
+    left: 22%;
+    animation: 29s linear 0s infinite drop-pattern-three;
+}
+
+.cc-glow-rain .orb:nth-child(9){ 
+    left: 25%;
+    animation: 25s linear 0s infinite drop-pattern-one;
+}
+
+.cc-glow-rain .orb:nth-child(10){ 
+    left: 28%;
+    animation: 23s linear 0s infinite drop-pattern-two;
+}
+
+.cc-glow-rain .orb:nth-child(11){ 
+    left: 31%;
+    animation: 21s linear 0s infinite drop-pattern-three;
+}
+
+.cc-glow-rain .orb:nth-child(12){ 
+    left: 34%;
+    animation: 27s linear 0s infinite drop-pattern-two;
+}
+
+.cc-glow-rain .orb:nth-child(13){ 
+    left: 37%;
+    animation: 19s linear 0s infinite drop-pattern-four;
+}
+
+.cc-glow-rain .orb:nth-child(14){ 
+    left: 40%;
+    animation: 31s linear 0s infinite drop-pattern-four;
+}
+
+.cc-glow-rain .orb:nth-child(15){ 
+    left: 43%;
+    animation: 15s linear 0s infinite drop-pattern-six;
+}
+
+.cc-glow-rain .orb:nth-child(16){ 
+    left: 46%;
+    animation: 35s linear 0s infinite drop-pattern-six;
+}
+
+.cc-glow-rain .orb:nth-child(17){ 
+    left: 49%;
+    animation: 11s linear 0s infinite drop-pattern-four;
+}
+
+.cc-glow-rain .orb:nth-child(18){ 
+    left: 52%;
+    animation: 39s linear 0s infinite drop-pattern-four;
+}
+
+.cc-glow-rain .orb:nth-child(19){ 
+    left: 55%;
+    animation: 7s linear 0s infinite drop-pattern-two;
+}
+
+.cc-glow-rain .orb:nth-child(20){ 
+    left: 58%;
+    animation: 43s linear 0s infinite drop-pattern-two;
+}
+
+.cc-glow-rain .orb:nth-child(21){ 
+    left: 61%;
+    animation: 4s linear 0s infinite drop-pattern-two;
+}
+
+.cc-glow-rain .orb:nth-child(22){ 
+    left: 64%;
+    animation: 40s linear 0s infinite drop-pattern-two;
+}
+
+.cc-glow-rain .orb:nth-child(23){ 
+    left: 67%;
+    animation: 8s linear 0s infinite drop-pattern-four;
+}
+
+.cc-glow-rain .orb:nth-child(24){ 
+    left: 70%;
+    animation: 36s linear 0s infinite drop-pattern-four;
+}
+
+.cc-glow-rain .orb:nth-child(25){ 
+    left: 73%;
+    animation: 12s linear 0s infinite drop-pattern-six;
+}
+
+.cc-glow-rain .orb:nth-child(26){ 
+    left: 76%;
+    animation: 16s linear 0s infinite drop-pattern-four;
+}
+
+.cc-glow-rain .orb:nth-child(27){ 
+    left: 79%;
+    animation: 30s linear 0s infinite drop-pattern-five;
+}
+
+.cc-glow-rain .orb:nth-child(28){ 
+    left: 82%;
+    animation: 20s linear 0s infinite drop-pattern-two;
+}
+
+.cc-glow-rain .orb:nth-child(29){ 
+    left: 85%;
+    animation: 26s linear 0s infinite drop-pattern-three;
+}
+
+.cc-glow-rain .orb:nth-child(30){ 
+    left: 88%;
+    animation: 22s linear 0s infinite drop-pattern-one;
+}
+
+.cc-glow-rain .orb:nth-child(31){ 
+    left: 91%;
+    animation: 24s linear 0s infinite drop-pattern-two;
+}
+
+.cc-glow-rain .orb:nth-child(32){ 
+    left: 94%;
+    animation: 28s linear 0s infinite drop-pattern-four;
+}
+
+.cc-glow-rain .orb:nth-child(33){ 
+    left: 97%;
+    animation: 18s linear 0s infinite drop-pattern-three;
+}
+
+.cc-glow-rain .orb:nth-child(34){ 
+    left: 100%;
+    animation: 32s linear 0s infinite drop-pattern-six;
+}
+
+.cc-glow-rain .orb:nth-child(35){ 
+    left: 3%;
+    animation: 14s linear 0s infinite drop-pattern-five;
+}
+
+.cc-glow-rain .orb:nth-child(36){ 
+    left: 6%;
+    animation: 34s linear 0s infinite drop-pattern-five;
+}
+
+.cc-glow-rain .orb:nth-child(37){ 
+    left: 9%;
+    animation: 10s linear 0s infinite drop-pattern-five;
+}
+
+.cc-glow-rain .orb:nth-child(38){ 
+    left: 12%;
+    animation: 38s linear 0s infinite drop-pattern-three;
+}
+
+.cc-glow-rain .orb:nth-child(39){ 
+    left: 15%;
+    animation: 6s linear 0s infinite drop-pattern-three;
+}
+
+.cc-glow-rain .orb:nth-child(40){ 
+    left: 18%;
+    animation: 42s linear 0s infinite drop-pattern-one;
+}
+
+@keyframes fade-glow { 
+    0% { opacity: .5; }
+    50% { opacity: 1; }
+    100% { opacity: .5; }
+}
+
+@keyframes drop-pattern-one {
+    0% { transform: translateY(-25vh); opacity: 0; }
+    50% { transform: translateY(55vh); opacity: 1; }
+    100% { transform: translateY(135vh); opacity: 0; }
+}
+
+@keyframes drop-pattern-two {
+    0% { transform: translateY(-35vh); opacity: 0; }
+    50% { transform: translateY(47.5vh); opacity: 1; }
+    100% { transform: translateY(130vh); opacity: 0; }
+}
+
+@keyframes drop-pattern-three {
+    0% { transform: translateY(-45vh); opacity: 0; }
+    50% { transform: translateY(40vh); opacity: 1; }
+    100% { transform: translateY(125vh); opacity: 0; }
+}
+
+@keyframes drop-pattern-four {
+    0% { transform: translateY(-20vh); opacity: 0; }
+    50% { transform: translateY(55vh); opacity: 1; }
+    100% { transform: translateY(130vh); opacity: 0; }
+}
+
+@keyframes drop-pattern-five {
+    0% { transform: translateY(-30vh); opacity: 0; }
+    50% { transform: translateY(47.5vh); opacity: 1; }
+    100% { transform: translateY(125vh); opacity: 0; }
+}
+
+@keyframes drop-pattern-six {
+    0% { transform: translateY(-40vh); opacity: 0; }
+    50% { transform: translateY(40vh); opacity: 1; }
+    100% { transform: translateY(120vh); opacity: 0; }
+}
+
